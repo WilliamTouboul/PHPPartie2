@@ -11,6 +11,16 @@
 
     <?php
 
+// Créer deux variables age et gender. La variable gender peut prendre comme valeur :
+// Homme
+// Femme
+
+// En fonction de l'âge et du genre afficher la phrase correspondante :
+// Vous êtes un homme et vous êtes majeur
+// Vous êtes un homme et vous êtes mineur
+// Vous êtes une femme et vous êtes majeure
+// Vous êtes une femme et vous êtes mineur 
+
     $age = 24;
     $gender = false;
     /*gender true=1=homme false=0=femme */

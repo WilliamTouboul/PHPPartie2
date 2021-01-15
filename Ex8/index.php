@@ -8,6 +8,16 @@
 </head>
 
 <body>
+
+<!-- traduire : 
+  $number = 11;
+  echo ($number % 5 == 0 && $number % 3 == 0)
+  ? 'FizzBuzz'
+  : ( $number % 3 == 0
+    ? 'Fizz'
+    : ($number % 5 == 0 ? 'Buzz' : $number)
+    ); -->
+    
     <?php
     $number = rand(0, 45);
 

@@ -8,6 +8,11 @@
 <body>
 
 <?php
+
+// Traduire ce code avec des if et des else :
+//       $var_b = 'Je suis une variable qui à une valeur';
+//       echo $var_b ?? 'Je suis une variable sans valeur';
+
       $var_b = 'Je suis une variable qui à une valeur';
 if($var_b != null) {
     echo 'j\'ai une valeur';
