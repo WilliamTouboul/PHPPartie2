@@ -9,17 +9,15 @@
 
 <body>
     <?php
-
-    $var_a = NULL;
-
-    if ($var_a === NULL) {
-        echo 'Je suis une variable sans valeur';
+     $var_a = null;
+    if ($var_a!= null) {
+        
     } else {
-        echo 'J\'ai une valeur';
+        echo'je suis une variable sans valeur';
     }
-
     ?>
 
+    <!-- test ? code à exécuter si true : code à exécuter si false. -->
 </body>
 
 </html>
