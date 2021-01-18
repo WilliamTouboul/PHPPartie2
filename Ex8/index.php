@@ -9,7 +9,7 @@
 
 <body>
 
-<!-- traduire : 
+    <!-- traduire : 
   $number = 11;
   echo ($number % 5 == 0 && $number % 3 == 0)
   ? 'FizzBuzz'
@@ -17,7 +17,7 @@
     ? 'Fizz'
     : ($number % 5 == 0 ? 'Buzz' : $number)
     ); -->
-    
+
     <?php
     $number = rand(0, 45);
 
@@ -28,7 +28,7 @@
     } else if ($number % 5 == 0) {
         echo 'Buzz';
     } else {
-        echo $number;
+        echo $number . ' n\'est pas divisible par 3 ou 5.';
     }
 
     ?>

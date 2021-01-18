@@ -22,16 +22,15 @@
 // Vous êtes une femme et vous êtes mineur 
 
     $age = 24;
-    $gender = false;
-    /*gender true=1=homme false=0=femme */
+    $gender = 'Homme';
 
-    if ($gender) {
+    if ($gender='Homme') {
         if ($age >= 18) {
             echo 'Vous etes un homme majeur';
         } else {
             echo 'Vous etes un homme mineur';
         }
-    } else if (!$gender) {
+    } else {
         if ($age >= 18) {
             echo 'Vous etes une femme majeure';
         } else {

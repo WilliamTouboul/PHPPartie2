@@ -8,7 +8,7 @@
 </head>
 
 <body>
-<!-- 
+    <!-- 
 L'échelle de Richter est un outil de mesure qui permet de définir la magnitude de moment d'un tremblement de terre. Cette échelle va de 1 à 9.
 Créer une variable magnitude. Selon la valeur de magnitude, afficher la phrase correspondante. -->
     <?php
@@ -43,6 +43,9 @@ Créer une variable magnitude. Selon la valeur de magnitude, afficher la phrase 
             break;
         case 9:
             echo "Séisme capable de tout détruire sur une très vaste zone.";
+            break;
+        default: // Ne pas oublier le Default.
+            echo 'Cette valeur n\'est pas determiné';
             break;
     }
 
